@@ -1,0 +1,31 @@
+baseurl = "https://canavandl.github.io"
+languageCode = "en"
+theme = "kiss"
+enableRobotsTXT = true
+title = "Personal Blog"
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Luke Canavan" # Author full name
+authorEmail = "canavandl@gmail.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+homeTitle = "Personal Blog" # Title for home page
+
+[params.social]
+twitter = "canavandl"
+github = "canavandl"
+email = "canavandl@gmail.com"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[taxonomies]
+tag ="tags"
+
+[params.social.config]
+platforms = ["github","twitter","email"]
+
+[params.sections_left]
+"/slides" = "Slides"
