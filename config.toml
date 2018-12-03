@@ -4,6 +4,8 @@ theme = "kiss"
 enableRobotsTXT = true
 title = "Personal Blog"
 
+googleAnalytics = "UA-130248108-1"
+
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
 authorName = "Luke Canavan" # Author full name
