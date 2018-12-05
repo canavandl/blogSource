@@ -159,23 +159,23 @@ Data analysis tools like Pandas are generally designed to consume data that matc
 
 ### The Chartify API
 
-Chartify users create a ``chartify.Chart`` object and specify one of a few enumerated axis types for the x and y axes. The resulting ``Chart`` object will contain a set of appropriate plotting methods for your axis pair type. For example, using a ``"datetime"`` x-axis and ``linear`` y-axis means that a line chart is a good idea and bar chart is not, because bar charts are typically intended for categorical data. I think this is great - Bokeh tries very hard to help users make effective visualizations by having nice defaults and I think these opinionated guardrails are good. tk
+Chartify users create a ``chartify.Chart`` object and specify one of a few enumerated axis types for the x and y axes. The resulting ``Chart`` object will contain a set of appropriate plotting methods for your axis pair type. For example, using a ``"datetime"`` x-axis and ``linear`` y-axis means that a line chart is a good idea and bar chart is not, because bar charts are typically intended for categorical data. I think this is great - Bokeh tries very hard to help users make effective visualizations by having nice defaults and I think these opinionated guardrails are good.
 
 *The allowed axis types*:
 
 x_axis_type (enum, str):
 
-- 'linear':
-- 'log':
-- 'datetime': Use for datetime formatted data.
-- 'categorical':
+- 'linear'
+- 'log'
+- 'datetime'
+- 'categorical'
 - 'density'
 
 y_axis_type (enum, str):
 
-- 'linear':
-- 'log':
-- 'categorical':
+- 'linear'
+- 'log'
+- 'categorical'
 - 'density'
 
 As of release 2.3.5, Chartify offers the following chart types for the corresponding x and y axis types:
